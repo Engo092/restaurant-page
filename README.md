@@ -1,0 +1,5 @@
+# Restaurant Page (made with Javascript)
+
+This project serves as an introduction to Webpack, Npm and export-import functions, being a webpage created dynamically with Javascript using almost no HTML at all. The restaurant in the page is completely fictional as many might already guess.
+
+This is still a early W.I.P and the "Menu" and "Contact Us" tabs aren't functional right now, but the main homepage is finished and should be a sample of the finalised version. The page itself is not really too complex, but since it is my first time using webpack and assets it is really good as practice for future projects. I wanted to create something that also looked nice and as a result the CSS in this project is more complex compared to most of my previous ones, especially with the addition of assets (Images and Downloaded Fonts).

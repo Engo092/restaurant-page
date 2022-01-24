@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'JackPirate';
+    src: url('./JackPiratePersonalUseOnly-OVGJP.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'BlackRose';
+    src: url('./BlackRose-2Onld.ttf') format('truetype');
+}
+
+html {
+    background: url('./background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+    font-size: max(5vh, 36px);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+.name {
+    font-family: 'JackPirate';
+    margin-left: 10%;
+}
+
+.tabs {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.headBtn {
+    font-family: 'BlackRose';
+    border-style: none;
+    background: none;
+    color: white;
+    font-size: max(3vh, 24px);
+    margin: 0 20px;
+}
+
+.headBtn:hover {
+    cursor: pointer;
+}
+
+.main {
+    font-family: 'BlackRose';
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.9);
+    width: 50%;
+    margin: 8% auto;
+    color: white;
+    min-height: 50vh;
+}
+
+h1 {
+    padding: 30px;
+}
+
+img {
+    width: 50%;
+    min-width: 150px;
+    max-height: 30%;
+    min-height: 200px;
+    margin-bottom: 5%;
+    border-radius: 80px;
+    border-style: solid;
+    border-color:dimgray ;
+}
+
+.aboutImg {
+    content: url('./aboutimg.jpg');
+}
+
+.textCont {
+    font-size: 26px;
+    padding: 10px 20%;
+}
