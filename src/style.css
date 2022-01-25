@@ -87,3 +87,88 @@ img {
     font-size: 26px;
     padding: 10px 20%;
 }
+
+.menuMain {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.menuTitle {
+    background-color: rgba(75, 71, 53, 0.9);
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+}
+
+.menuDisplay {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: black;
+}
+
+.menuItem {
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 5%;
+    width: 35%;
+    min-width: 200px;
+    min-height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: flex-end;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+
+.itemText {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 1vh;
+}
+
+.item1, .item2, .item3, .item4, .item5, .item6 {
+    background-size: 100%;
+}
+
+.item1 {
+    background-image: url('./item1.jpg');
+}
+
+.item2 {
+    background-image: url('./item2.jpg');
+}
+
+.item3 {
+    background-image: url('./item3.jpg');
+}
+
+.item4 {
+    background-image: url('./item4.jpg');
+}
+
+.item5 {
+    background-image: url('./item5.jpg');
+}
+
+.item6 {
+    background-image: url('./item6.jpg');
+}
+
+
+@media only screen and (min-width: 867px) {
+    .left {
+        margin-right: 2%;
+    }
+    
+    .right {
+        margin-left: 2%;
+    }
+}
